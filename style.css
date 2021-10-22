@@ -1,0 +1,104 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    height: 100vh;
+}
+
+body{
+    text-align: center;
+    background-image: url('./img/game-stick.jpg');
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+    color: #ffffff;
+}
+
+/* Header section */
+
+header h1{
+    margin: 20px 0 0 0;
+    background-image: linear-gradient(to right, #ce03fc 40%, #028686 60%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+.nav-list li{
+    margin: 30px 10px 20px 0;
+    list-style: none;
+    display: inline-block;
+}
+
+.nav-list li a{
+    text-decoration: none;
+    color: rgb(207, 0, 207);
+    font-size: 21px;
+    font-weight: bold;
+}
+
+/* Main section */
+
+section h1{
+    margin: 20px 0 20px 0;
+    background-image: linear-gradient(to right, #ce03fc 40%, #028686 60%);
+    -webkit-background-clip: text;
+    color: transparent;
+}
+
+section .paragraph-width{
+    width: 600px;
+    margin: 0 auto;
+}
+
+section p{
+    text-align: justify;
+    color: rgb(233, 229, 229);
+    font-size: 18px;
+    font-weight: bold;
+    background-color: rgba(82, 74, 90, 0.336);
+}
+
+
+section .ordered-list-width{
+    width: 100px;
+    margin: 0 auto;
+}
+
+section ol li{
+    color: rgb(233, 229, 229);
+    font-weight: bold;
+    list-style-type: none;
+}
+
+section ul li{
+    display: block;
+    /* margin: 0 auto; */
+}
+
+
+section ul .productPhotos{
+   
+    margin: 30px auto;
+    transition: transform 0.5s;
+}
+
+.productPhotos:hover{
+    transform: translateY(-10px) scale(1.02);
+}
+
+section ul .product-links{
+    display: inline-block;
+    text-decoration: none;
+    color: #ff8c00;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+
+section ul .product-links:last-child{
+    margin-bottom: 20px;
+}
